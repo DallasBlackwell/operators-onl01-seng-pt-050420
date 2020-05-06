@@ -2,9 +2,9 @@ require 'pry'
 
 def unsafe?(speed)
   if speed < 40
-    return = "unsafe"
+    return "unsafe"
   elsif speed > 60
-    return speed = "unsafe"
+    return "unsafe"
   else speed
     return "safe"
   end
@@ -16,4 +16,3 @@ def not_safe?(speed)
   elsif speed > 60 ? unsafe : safe
   end
 end
-	
